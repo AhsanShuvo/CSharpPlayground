@@ -1,8 +1,6 @@
 ﻿<Properties StartupConfiguration="{40CC5C6E-B6E9-4D69-9688-4C243E496BDC}|Default">
   <MonoDevelop.Ide.ItemProperties.ConsoleApplication PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleApplication/Program.cs">
     <Files>
       <File FileName="ConsoleApplication/Program.cs" Line="3" Column="23" />
