@@ -1,17 +1,28 @@
 ﻿<Properties StartupConfiguration="{40CC5C6E-B6E9-4D69-9688-4C243E496BDC}|Default">
   <MonoDevelop.Ide.ItemProperties.ConsoleApplication PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleApplication/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleApplication/.gitignore">
     <Files>
-      <File FileName="ConsoleApplication/Program.cs" Line="3" Column="23" />
+      <File FileName="ConsoleApplication/Program.cs" Line="20" Column="1" />
+      <File FileName="ConsoleApplication/Models/Employee.cs" Line="7" Column="3" />
+      <File FileName="ConsoleApplication/BuilderPattern/Builder.cs" Line="42" Column="4" />
+      <File FileName="ConsoleApplication/BuilderPattern/BankAccountV2.cs" Line="14" Column="1" />
+      <File FileName="ConsoleApplication/Caches/LRUCache.cs" Line="32" Column="40" />
+      <File FileName="ConsoleApplication/Caches/LinkedListNode.cs" Line="5" Column="35" />
+      <File FileName="ConsoleApplication/Caches/DoublyLinkedList.cs" Line="9" Column="24" />
+      <File FileName="ConsoleApplication/Caches/LRUCacheManagerInt.cs" Line="19" Column="43" />
+      <File FileName="ConsoleApplication/Caches/LRUCacheManagerString.cs" Line="15" Column="43" />
+      <File FileName="ConsoleApplication/Caches/BaseCacheManager.cs" Line="11" Column="1" />
+      <File FileName="ConsoleApplication/.gitignore" Line="14" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ConsoleApplication" expanded="True">
+          <Node name="ConsoleApplication">
             <Node name="ConsoleApplication" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>

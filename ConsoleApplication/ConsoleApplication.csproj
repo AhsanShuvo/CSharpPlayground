@@ -14,10 +14,14 @@
     <None Remove="Models\" />
     <None Remove="BuilderPattern\" />
     <None Remove="Caches\" />
+    <None Remove="Caches\LRU\" />
+    <None Remove="Caches\LFU\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="BuilderPattern\" />
     <Folder Include="Caches\" />
+    <Folder Include="Caches\LRU\" />
+    <Folder Include="Caches\LFU\" />
   </ItemGroup>
 </Project>

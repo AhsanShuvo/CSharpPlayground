@@ -6,14 +6,14 @@ namespace ConsoleApplication.Caches
     public class LRUCache<T, V>
     {
         private int cacheSize;
-        private DoublyLinkedList<T, V> List;
-        private Dictionary<T, LinkedListNode<T, V> > Cache;
+        private LRUDoublyLinkedList<T, V> List;
+        private Dictionary<T, LRULinkedListNode<T, V> > Cache;
 
         public LRUCache(int size, T initKey, V initValue)
         {
             cacheSize = size;
-            List = new DoublyLinkedList<T, V>(initKey, initValue);
-            Cache = new Dictionary<T, LinkedListNode<T, V>>();
+            List = new LRUDoublyLinkedList<T, V>(initKey, initValue);
+            Cache = new Dictionary<T, LRULinkedListNode<T, V>>();
         }
 
         public V Get(T key)
